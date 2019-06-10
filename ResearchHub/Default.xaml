@@ -1,0 +1,116 @@
+﻿<Page x:Class="ResearchHub.Default"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ResearchHub"
+      mc:Ignorable="d" 
+      d:DesignHeight="880" d:DesignWidth="1400"
+      Title="Default">
+
+    <Grid Name="ButtonContainer">
+        <Image Source="source file/Zero-State bg.png" Stretch="UniformToFill"/>
+        <Button Name="computational" Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,60,0,0" VerticalAlignment="Top" Width="556" >
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="fabrication" Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,130,-105,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="computerArch" Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,200,-210,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="hci" Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,270,-315,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="computerGraphics"  Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,340,-420,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="robotics"  Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,480,-420,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="nlp" Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,760,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="ubiquitous"  Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,690,-105,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="programming" Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,620,-210,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="wireless" Opacity="0.7" HorizontalAlignment="Right" Height="50" Margin="0,550,-315,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+
+        <Button Name="dataManagement"  Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="0,60,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="arVr"  Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="-105,130,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="dataScience"  Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="-210,200,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="ai"  Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="-315,270,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="computing" Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="-420,340,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="security" Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="-420,480,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="theory" Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="0,760,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="molecularInfoSystems"  Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="-105,690,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="systems"  Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="-210,620,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+        <Button Name="ml" Opacity="0.7" FlowDirection="RightToLeft" HorizontalAlignment="Left" Height="50" Margin="-315,550,0,0" VerticalAlignment="Top" Width="556">
+            <Button.Background>
+                <ImageBrush ImageSource="source file/Zero-State bar.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

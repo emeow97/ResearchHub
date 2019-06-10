@@ -1,0 +1,67 @@
+﻿<Page x:Class="ResearchHub.OpportunityPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ResearchHub"
+      mc:Ignorable="d" 
+      d:DesignHeight="880" d:DesignWidth="1400"
+      Title="OpportunityPage">
+
+    <Grid>
+        <StackPanel>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="80,20,0,20" VerticalAlignment="Top" Width="50" Height="50" BorderBrush="{x:Null}" Click="Button_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="source file/Back button.png"/>
+                </Button.Background>
+            </Button>
+            <TextBlock Name="titleOfOpportunity" Margin="80, 0, 0, 0"  FontSize="40" TextWrapping="Wrap" FontWeight="Bold"/>
+            <TextBlock Name="field" FontSize="20" Margin="80, 0, 0, 0"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Grid.Column="0" Grid.RowSpan="2">
+                    <TextBlock Text="PROJECT DESCRIPTION" FontWeight="Bold" FontSize="25" Margin="80, 30, 0, 0"/>
+                    <TextBlock Name="projectDescription" FontSize="20" Margin="80, 10, 0, 0" TextWrapping="Wrap"/>
+                    <TextBlock Text="MINIMUM REQUIREMENT" FontWeight="Bold" FontSize="25" Margin="80, 30, 0, 0"/>
+                    <TextBlock Name="projectRequirement" FontSize="20" Margin="80, 10, 0, 0" TextWrapping="Wrap"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="1">
+                    <TextBlock Text="COMMITMENT" FontWeight="Bold" FontSize="25" Margin="50, 30, 0, 0"/>
+                    <TextBlock Name="projectCommitment" FontSize="20" Margin="50, 0, 0, 0" TextWrapping="Wrap"/>
+                    <TextBlock Text="COMPENSATION" FontWeight="Bold" FontSize="25" Margin="50, 30, 0, 0"/>
+                    <TextBlock Name="projectCompensation" FontSize="20" Margin="50, 0, 0, 0" TextWrapping="Wrap"/>
+                    <TextBlock Text="LISTING AVAILABILITY" FontWeight="Bold" FontSize="25" Margin="50, 30, 0, 0"/>
+                    <TextBlock Name="projectAvailability" FontSize="20" Margin="50, 0, 0, 0" TextWrapping="Wrap"/>
+                    <TextBlock Text="CONTACT" FontWeight="Bold" FontSize="25" Margin="50, 10, 0, 0"/>
+                    <TextBlock Name="projectContact" FontSize="20" Margin="50, 0, 0, 20" TextWrapping="Wrap"/>
+                    <TextBlock Height="100" FontWeight="Bold" FontSize="20" Margin="50, 0, 50,0">
+                        Email this listing to yourself to <LineBreak/>
+                        access it later and apply!
+                    </TextBlock>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="1*" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox Grid.Column="0" Name="emailRecieved" FontSize="25" Text="E-mail address" Width="300" 
+                                 HorizontalAlignment="Left" Margin="50, 0, 0, 0" Foreground="#FF8D8B8B"/>
+                        <Button Grid.Column="1" Margin="0, 0, 50, 0" Background="#FF0A0909" FontSize="25"
+                                Foreground="#FFFCFBFB" Click="Button_Click_1">SEND</Button>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        <Grid HorizontalAlignment="Left" Height="0" Margin="1360,720,-5,0" VerticalAlignment="Top" Width="45"/>
+    </Grid>
+</Page>

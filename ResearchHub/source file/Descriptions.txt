@@ -1,0 +1,160 @@
+﻿ai
+ARTIFICIAL INTELLIGENCE
+The artificial intelligence group studies mechanisms underlying intelligent behavior in a wide variety of areas, including machine learning, natural language processing, and probabilistic reasoning.
+GAUSSIAN PROCESSES FOR BAYESIAN STATE ESTIMATION
+Developing methods for Bayesian state estimation in Gaussian process dynamic systems
+I never thought I would get the opportunity to present at such renowned conferences and have so many amazing resources at my fingertips.
+MARIA VASQUEZ
+PHD STUDENT
+arVr
+AUGMENTED & VIRTUAL REALITY
+The UW Reality Lab works on 3D computer vision and perception, object recognition, graphics, game science and education, distributed computing, stream processing, privacy and security, and more.
+SOCCER ON YOUR TABLETOP
+A system that transforms a video of a soccer game into a moving 3D reconstruction
+It’s a very visual part of computer science which is pretty rare. It’s also a very broadly applicable field for a bunch of different use cases and industries.
+ANDREW WANG
+UNDERGRADUATE STUDENT
+computational
+COMPUTATIONAL & SYNTHETIC BIOLOGY
+This research area addresses computational problems that enable greater understanding of complex biological systems and explores exciting innovations to advance scientific discovery.
+DNA MOLECULE CIRCUIT BOARD
+Applying spatial organization to create a new “DNA domino” architecture that reduces computation time
+I really enjoy doing research at the intersection of biology and computer science. I think the work we're doing can have a big impact on the way that we understand biology.
+AISHWARYA MANDYAM
+UNDERGRADUATE STUDENT
+computerArch
+COMPUTER ARCHITECTURE
+Computer architecture research at UW CSE encompasses the structure, organization, implementation, and performance of the basic building blocks of computer systems.
+MOSAIC
+CGRAs can offer performance approaching an ASIC with similar flexibility to a digital signal processor
+The work we do is so interdisciplinary that I find myself constantly surprised by what I learn from my peers. It’s a really amazing environment.
+MARIA CHUNG
+MASTER’S STUDENT
+computerGraphics
+COMPUTER GRAPHICS, VISION, ANIMATION, & GAME SCIENCE
+Four labs engaging in research spanning the areas of computer graphics, vision, augmented/virtual reality, visualization, animation, and game science.
+MOZAK
+Neuroscientific discovery game about reconstructing neurons
+I loved being able to create biology games that helped people engage with complex concepts, such as viruses, in a more interactive way.
+SHRADDHA SHIWAKOTI
+PHD STUDENT
+computing
+COMPUTING FOR DEVELOPMENT
+Computing for development explores the role of information and communication technologies in improving the lives of underserved populations in low-income regions.
+PROJECTING HEALTH PROJECT
+Improving local health knowledge and maternal and newborn care practices in 84 Indian villages
+The fact that our team have deployed two Community LTE Networks in Bokondini, Indonesia and Oaxaca, Mexico is pretty cool!
+PAT KOSAKANCHIT
+UNDERGRADUATE STUDENT
+dataScience
+DATA SCIENCE
+Data science combines depth and breadth of expertise in data management, data visualization, sensing, open information extraction, and systems and networking.
+OUTDOOR RECREATION DATA
+Improving recreational opportunities with crowd-sourced maps and tools and social media
+We’ve made exciting steps towards a computer system that combines data and digital components. The research is really cutting edge.
+JESSE RUIZ
+PROFESSOR
+dataManagement
+DATA MANAGEMENT & VISUALIZATION
+UW's data labs conduct theoretical and systems research in big data management, cloud computing, data pricing, probabilistic databases, stream processing, and more.
+FALCON
+Balancing interactive latency and resolution sensitivity for scalable linked visualizations
+I’m proud of how our research group has been able to enhance people's ability to understand and communicate data, and increase data literacy.
+ALINA ROBINSON
+PHD STUDENT
+fabrication
+FABRICATION
+Fabrication research focuses on advancing new manufacturing processes, expanding the range of materials, and developing practical applications and tools to democratize who can fabricate.
+PRINTED ANALYTICS
+Data capture and wireless physical capabilities for 3D printed objects without electronics
+I worked on creating an app that creates customized directions based on people’s personal abilities. I felt like I made a difference.
+AMELIA WALKER
+GRADUATE STUDENT
+hci
+HUMAN COMPUTER INTERACTION & ACCESSIBLE TECHNOLOGY
+UW CSE's Human Computer Interaction group creates interactive systems and pursues opportunities for new interactive technologies to improve our everyday lives.
+ACCESSMAP
+Provides accessible sidewalk and footpath directions based on personal ability
+I love being able to take the skills that I’m learning in my classes and apply them to broader goals that actually have tangible impacts on our local communities.
+ISHAN NARULA
+UNDERGRADUATE STUDENT
+ml
+MACHINE LEARNING
+Machine learning at UW engages in a variety of applications like natural language processing, vision, computational biology, the web, and social networks.
+TRACTABLE DEEP LEARNING
+Developing new classes of thorough, expressive but still tractable models
+In the Baker lab I get to combine cutting edge biotechnology with deep learning tools that help predict never-before-seen with protein structures for therapeutics development.
+CALEB ELLINGTON
+Undergraduate Student
+molecular info systems
+MOLECULAR INFORMATION SYSTEMS
+The Molecular Information Systems Lab explores the intersection of information technology and molecular-level manipulation using in-silico and wet lab experiments.
+MICROFLUIDIC AUTOMATION
+Aiming to make microfluidic automation cheaper, more reliable, and easier to use
+Having a tangible impact on this field and working on new systems that improve reliability and efficiency has been immensely rewarding.
+BISHAL GYAWALDI
+GRADUATE STUDENT
+nlp
+NATURAL LANGUAGE PROCESSING
+The Allen School's Natural Language Processing group explores core problems such as parsing, information extraction, and machine translation, and modeling and processing social media text.
+MULTILINGUAL REPRESENTATIONS AND PARSING
+Generalizing NLP to improve tasks like multilingual parsing for low-resource languages
+We met many challenges through our research, but our team was able to be resilient and find success in creating a solution.
+LINDSAY FUDGE
+GRADUATE STUDENT
+programming
+PROGRAMMING LANGUAGES & SOFTWARE ENGINEERING
+The Programming Languages and Software Engineering group leverages theory, design, and experimentation to build software that benefits both the developer community and end users. 
+ROSETTE
+A programming language that helps develop synthesis and verification tools for new languages
+The work we did in the labs really set me up to find future opportunities where I could participate and even lead more advanced research.
+HENRY LARSON
+UNDERGRADUATE STUDENT
+robotics
+ROBOTICS
+Robotics researchers are engaged in mechanism design, sensors, computer vision, robot learning, Bayesian state estimation, control theory, numerical optimization, and more.
+ASSISTIVE DEXTROUS ARM
+Mimics equipment used by people with mobility impairments, specifically feeding
+I love creating robotic tech that interacts with the physical world in an intelligent way and that enhance human lives in this digital age.
+MOHAMMED KAIF
+PHD STUDENT
+security
+SECURITY & PRIVACY
+The Security and Privacy Research Lab engages in security and privacy for embedded and cyber-physical systems, web and mobile device security, security and software engineering, and more.
+MAKING FINANCIAL PRODUCTS FOR THE POOR
+Making mobile financial products more available to the lowest-income people around the world
+It is really rewarding knowing that the work you are putting in is being applied to real-life issues people face every day.
+JOSEPH BLUM
+PROFESSOR
+systems
+SYSTEMS & NETWORKING
+Systems & networking explores new frontiers in research, encompassing the fundamental aspects of operating systems, distributed systems, networks, and security. 
+LIVING IOT
+First sensor package that can ride aboard live insects in lieu of drones
+We created a preventative system with a smart platform to keep the campus community informed and safe, positively influencing our community.
+SANJAY KHAN
+UNDERGRADUATE STUDENT
+theory
+THEORY OF COMPUTATION
+CS Theory at UW focuses on areas such as computational complexity, proof complexity, satisfiability, optimization, experimental design, and machine learning.
+PAPER ON THE MATCHING POLYTOPE
+Proving lower bounds on the extension complexity of the matching polytope
+Everyday I learn something new from my colleagues. The amount of talen and interdisciplinary collaboration in this field makes this lab really unique.
+NATHALIE XU
+PHD STUDENT
+ubiquitous
+UBIQUITOUS COMPUTING
+The Ubiquitous Computing lab designs next-generation sensors to enable exciting new capabilities in health care, sustainability, smart buildings, and human-machine interaction.
+PAPERID
+Giving paper the ability to respond to gestures using RFID tags
+I enjoy applying machine learning techniques from other fields to problems that can provide benefits in health and wellness.
+MATT WHITEHILL
+GRADUATE STUDENT
+wireless
+WIRELESS & SENSOR SYSTEMS
+Wireless and sensor research at UW aims to improve the connection between information systems and the physical world by developing new sensors and ways to power them.
+FREE-RANGE RESONANT ELECTRICAL ENERGY DELIVERY
+Using resonators to transfer power to an artificial heart and reduce infections
+Our research was able to address meaningful issues with innovative technology solutions for underserved and underrepresented populations.
+ISHMAEL BEAH
+PROFESSOR

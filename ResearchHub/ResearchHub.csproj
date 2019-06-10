@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{189C411A-28B8-412D-BA8A-E1B9DF6DC8D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ResearchHub</RootNamespace>
+    <AssemblyName>ResearchHub</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="AddList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AreaList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AreaPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Default.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="AddList.xaml.cs">
+      <DependentUpon>AddList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Area.cs" />
+    <Compile Include="AreaList.xaml.cs">
+      <DependentUpon>AreaList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AreaPage.xaml.cs">
+      <DependentUpon>AreaPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReadPort.cs" />
+    <Compile Include="Default.xaml.cs">
+      <DependentUpon>Default.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="OpportunityBlock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OpportunityPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Opportunity.cs" />
+    <Compile Include="OpportunityBlock.xaml.cs">
+      <DependentUpon>OpportunityBlock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OpportunityPage.xaml.cs">
+      <DependentUpon>OpportunityPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Parse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="source file\opportunityList.tsv" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="source file\Zero-State bar.png" />
+    <Resource Include="source file\Zero-State bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="source file\fieldImage\fields_ai.png" />
+    <Resource Include="source file\fieldImage\fields_arVr.png" />
+    <Resource Include="source file\fieldImage\fields_computational.png" />
+    <Resource Include="source file\fieldImage\fields_computerArch.png" />
+    <Resource Include="source file\fieldImage\fields_computerGraphics.png" />
+    <Resource Include="source file\fieldImage\fields_computing.png" />
+    <Resource Include="source file\fieldImage\fields_dataManagement.png" />
+    <Resource Include="source file\fieldImage\fields_dataScience.png" />
+    <Resource Include="source file\fieldImage\fields_fabrication.png" />
+    <Resource Include="source file\fieldImage\fields_hci.png" />
+    <Resource Include="source file\fieldImage\fields_ml.png" />
+    <Resource Include="source file\fieldImage\fields_nlp.png" />
+    <Resource Include="source file\fieldImage\fields_programming.png" />
+    <Resource Include="source file\fieldImage\fields_robotics.png" />
+    <Resource Include="source file\fieldImage\fields_molecularInfoSystems.png" />
+    <Resource Include="source file\fieldImage\fields_security.png" />
+    <Resource Include="source file\fieldImage\fields_systems.png" />
+    <Resource Include="source file\fieldImage\fields_theory.png" />
+    <Resource Include="source file\fieldImage\fields_ubiquitous.png" />
+    <Resource Include="source file\fieldImage\fields_wireless.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="source file\Learning Transition State Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="..\..\..\..\Desktop\temp\ResearchHub\ResearchHub\Descriptions.txt">
+      <Link>source file\Descriptions.txt</Link>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="source file\Add a Listing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="source file\Back button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="source file\imgDefault.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="source file\iconImage\icon_ai.png" />
+    <Resource Include="source file\iconImage\icon_arVr.png" />
+    <Resource Include="source file\iconImage\icon_computational.png" />
+    <Resource Include="source file\iconImage\icon_computerArch.png" />
+    <Resource Include="source file\iconImage\icon_computerGraphics.png" />
+    <Resource Include="source file\iconImage\icon_computing.png" />
+    <Resource Include="source file\iconImage\icon_dataManagement.png" />
+    <Resource Include="source file\iconImage\icon_dataScience.png" />
+    <Resource Include="source file\iconImage\icon_fabrication.png" />
+    <Resource Include="source file\iconImage\icon_hci.png" />
+    <Resource Include="source file\iconImage\icon_ml.png" />
+    <Resource Include="source file\iconImage\icon_molecularInfoSystems.png" />
+    <Resource Include="source file\iconImage\icon_nlp.png" />
+    <Resource Include="source file\iconImage\icon_programming.png" />
+    <Resource Include="source file\iconImage\icon_robotics.png" />
+    <Resource Include="source file\iconImage\icon_security.png" />
+    <Resource Include="source file\iconImage\icon_systems.png" />
+    <Resource Include="source file\iconImage\icon_theory.png" />
+    <Resource Include="source file\iconImage\icon_ubiquitous.png" />
+    <Resource Include="source file\iconImage\icon_wireless.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

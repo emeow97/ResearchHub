@@ -1,0 +1,26 @@
+﻿<Page x:Class="ResearchHub.OpportunityBlock"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ResearchHub"
+      mc:Ignorable="d" 
+      d:DesignHeight="360" d:DesignWidth="350"
+      Title="OpportunityBlock">
+
+    <Grid>
+        <StackPanel Height="360" Width="350">
+            <StackPanel Height="180" Width="350" OpacityMask="#FF8C8989">
+                <StackPanel.Background>
+                    <ImageBrush x:Name="opportunityBannerPic"/>
+                </StackPanel.Background>
+                <TextBlock x:Name="opportunityName" FontSize="25" FontWeight="Bold" TextAlignment="Left" 
+                       Height="100" Margin="15, 100, 15, 0" Foreground="White" TextWrapping="Wrap">
+                </TextBlock>
+            </StackPanel>
+            <TextBlock Text="DESCRIPTION" FontWeight="Bold" FontSize="15" Margin="15, 15, 15, 0"/>
+            <TextBlock Name="description" FontSize="15" Margin="15, 0, 15, 0" Height="100" TextWrapping="Wrap"/>
+            <Button VerticalAlignment="Bottom" Margin="0, 0, 0, 0"  Height="50" Content="MORE INFO" Background="#c9eae7" FontWeight="Bold" FontSize="18" BorderBrush="{x:Null}" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
